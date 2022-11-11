@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+
+.header {
+    margin: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    padding: 12px;
+    gap: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexlogo {
+    width: 70px;
+    height: 70px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainimage {
+    height: 250px;
+    width: 500px;
+}
+
+button {
+    padding: 8px 20px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: red;
+}
