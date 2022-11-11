@@ -14,11 +14,18 @@ body {
     justify-content: space-between;
 }
 
+.indexlogo {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
 .links {
     display: flex;
     list-style-type: none;
     padding: 12px;
     gap: 12px;
+    margin-right: 50px;
 }
 
 .footer {
@@ -27,20 +34,22 @@ body {
     align-items: center;
 }
 
-.indexlogo {
-    width: 70px;
-    height: 70px;
-}
 
 .main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.maininfo {
+    margin: 40px;
 }
 
 .mainimage {
-    height: 250px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
+    margin: 40px;
 }
+
 
 button {
     padding: 8px 20px;
