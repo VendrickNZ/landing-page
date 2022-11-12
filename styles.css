@@ -30,8 +30,10 @@ body {
 
 .footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
     align-items: center;
+    min-height: 30vh;
 }
 
 
@@ -69,6 +71,7 @@ button {
     width: 250px;
     height: 150px;
     margin: 10px;
+    border: 3px solid black;
 }
 
 .infotext {
@@ -79,4 +82,22 @@ button {
 .container {
     display: flex;
     justify-content: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: right;
+}
+
+.quoter {
+    display: flex;
+    margin: 35px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    background-color: red;
 }
