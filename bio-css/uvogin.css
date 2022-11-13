@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+}
+
+.text {
+    margin: 20px;
+    inline-size: 700px;
+}
+
+.uvogin-image {
+    border: 2px solid black;
+    height: 300px;
+    width: 550px;
+}
+
+.back {
+    margin-top: 300px;
+    width: 75px;
+    padding: 4px 10px;
+    background-color: #000000;
+    color: white;
+}
+
+button:hover {
+    background-color: #ff0d0d;
+    color: black
+}
+
+.kurapika {
+    display: flex;
+    justify-content: right;
+}

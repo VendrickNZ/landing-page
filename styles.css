@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+a {
+    text-decoration: none;
+}
 
 body {
     display: flex;
@@ -26,6 +29,8 @@ body {
     padding: 12px;
     gap: 12px;
     margin-right: 50px;
+
+
 }
 
 .footer {

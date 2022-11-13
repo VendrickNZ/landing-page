@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+.text {
+    margin: 20px;
+    inline-size: 700px;
+}
+
+.image {
+    border: 2px solid blue
+}
+
+.back {
+    margin-top: 300px;
+    width: 75px;
+    padding: 4px 10px;
+    background-color: #000000;
+    color: white;
+}
+
+button:hover {
+    background-color: #ff0d0d;
+    color: black
+}
